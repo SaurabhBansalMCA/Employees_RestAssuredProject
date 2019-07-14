@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="17" passed="12" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-13T16:48:02Z" name="EmployeesRestAPISuite" finished-at="2019-07-13T16:48:26Z" duration-ms="23450">
+    <groups>
+    </groups>
+    <test started-at="2019-07-13T16:48:02Z" name="EmployeesRestAPITest" finished-at="2019-07-13T16:48:26Z" duration-ms="23450">
+      <class name="com.employee.testcases.TC001_VerifyAllEmployeeData">
+        <test-method is-config="true" signature="LogSetUp()[pri:0, instance:com.employee.testcases.TC001_VerifyAllEmployeeData@58ea606c]" started-at="2019-07-13T16:48:01Z" name="LogSetUp" finished-at="2019-07-13T16:48:02Z" duration-ms="1228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogSetUp -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.employee.testcases.TC001_VerifyAllEmployeeData@58ea606c]" started-at="2019-07-13T16:48:05Z" name="SetUp" finished-at="2019-07-13T16:48:19Z" duration-ms="14247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ValidateResponseBody()[pri:0, instance:com.employee.testcases.TC001_VerifyAllEmployeeData@58ea606c]" started-at="2019-07-13T16:48:19Z" name="ValidateResponseBody" finished-at="2019-07-13T16:48:19Z" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateResponseBody -->
+        <test-method signature="ValidateStatusCode()[pri:0, instance:com.employee.testcases.TC001_VerifyAllEmployeeData@58ea606c]" started-at="2019-07-13T16:48:19Z" name="ValidateStatusCode" finished-at="2019-07-13T16:48:19Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusCode -->
+        <test-method signature="ValidateresponseTime()[pri:0, instance:com.employee.testcases.TC001_VerifyAllEmployeeData@58ea606c]" started-at="2019-07-13T16:48:19Z" name="ValidateresponseTime" finished-at="2019-07-13T16:48:19Z" duration-ms="11" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.employee.testcases.TC001_VerifyAllEmployeeData.ValidateresponseTime(TC001_VerifyAllEmployeeData.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateresponseTime -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.employee.testcases.TC001_VerifyAllEmployeeData@58ea606c]" started-at="2019-07-13T16:48:19Z" name="TearDown" finished-at="2019-07-13T16:48:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.employee.testcases.TC001_VerifyAllEmployeeData -->
+      <class name="com.employee.testcases.TC003_VerifyCreateNewEmployee">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.employee.testcases.TC003_VerifyCreateNewEmployee@38e79ae3]" started-at="2019-07-13T16:48:20Z" name="SetUp" finished-at="2019-07-13T16:48:21Z" duration-ms="1090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ValidateResponseBody()[pri:0, instance:com.employee.testcases.TC003_VerifyCreateNewEmployee@38e79ae3]" started-at="2019-07-13T16:48:21Z" name="ValidateResponseBody" finished-at="2019-07-13T16:48:21Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateResponseBody -->
+        <test-method signature="ValidateStatusCode()[pri:0, instance:com.employee.testcases.TC003_VerifyCreateNewEmployee@38e79ae3]" started-at="2019-07-13T16:48:21Z" name="ValidateStatusCode" finished-at="2019-07-13T16:48:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusCode -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.employee.testcases.TC003_VerifyCreateNewEmployee@38e79ae3]" started-at="2019-07-13T16:48:21Z" name="TearDown" finished-at="2019-07-13T16:48:21Z" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.employee.testcases.TC003_VerifyCreateNewEmployee -->
+      <class name="com.employee.testcases.TC004_VerifyUpdateExistingEmployee">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.employee.testcases.TC004_VerifyUpdateExistingEmployee@63070bab]" started-at="2019-07-13T16:48:21Z" name="SetUp" finished-at="2019-07-13T16:48:22Z" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ValidateResponseBody()[pri:0, instance:com.employee.testcases.TC004_VerifyUpdateExistingEmployee@63070bab]" started-at="2019-07-13T16:48:22Z" name="ValidateResponseBody" finished-at="2019-07-13T16:48:22Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateResponseBody -->
+        <test-method signature="ValidateStatusCode()[pri:0, instance:com.employee.testcases.TC004_VerifyUpdateExistingEmployee@63070bab]" started-at="2019-07-13T16:48:22Z" name="ValidateStatusCode" finished-at="2019-07-13T16:48:22Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusCode -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.employee.testcases.TC004_VerifyUpdateExistingEmployee@63070bab]" started-at="2019-07-13T16:48:22Z" name="TearDown" finished-at="2019-07-13T16:48:22Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.employee.testcases.TC004_VerifyUpdateExistingEmployee -->
+      <class name="com.employee.testcases.TC002_VerifySingleEmployeeData">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.employee.testcases.TC002_VerifySingleEmployeeData@6f45df59]" started-at="2019-07-13T16:48:19Z" name="SetUp" finished-at="2019-07-13T16:48:20Z" duration-ms="835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ValidateContentType()[pri:0, instance:com.employee.testcases.TC002_VerifySingleEmployeeData@6f45df59]" started-at="2019-07-13T16:48:20Z" name="ValidateContentType" finished-at="2019-07-13T16:48:20Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateContentType -->
+        <test-method signature="ValidateResponseBody()[pri:0, instance:com.employee.testcases.TC002_VerifySingleEmployeeData@6f45df59]" started-at="2019-07-13T16:48:20Z" name="ValidateResponseBody" finished-at="2019-07-13T16:48:20Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateResponseBody -->
+        <test-method signature="ValidateStatusCode()[pri:0, instance:com.employee.testcases.TC002_VerifySingleEmployeeData@6f45df59]" started-at="2019-07-13T16:48:20Z" name="ValidateStatusCode" finished-at="2019-07-13T16:48:20Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusCode -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.employee.testcases.TC002_VerifySingleEmployeeData@6f45df59]" started-at="2019-07-13T16:48:20Z" name="TearDown" finished-at="2019-07-13T16:48:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.employee.testcases.TC002_VerifySingleEmployeeData -->
+      <class name="com.employee.testcases.TC005_VerifyDeleteEmpRecord">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.employee.testcases.TC005_VerifyDeleteEmpRecord@68e5eea7]" started-at="2019-07-13T16:48:22Z" name="SetUp" finished-at="2019-07-13T16:48:26Z" duration-ms="3559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ValidateContentType()[pri:0, instance:com.employee.testcases.TC005_VerifyDeleteEmpRecord@68e5eea7]" started-at="2019-07-13T16:48:26Z" name="ValidateContentType" finished-at="2019-07-13T16:48:26Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateContentType -->
+        <test-method signature="ValidateResponseBody()[pri:0, instance:com.employee.testcases.TC005_VerifyDeleteEmpRecord@68e5eea7]" started-at="2019-07-13T16:48:26Z" name="ValidateResponseBody" finished-at="2019-07-13T16:48:26Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateResponseBody -->
+        <test-method signature="ValidateStatusCode()[pri:0, instance:com.employee.testcases.TC005_VerifyDeleteEmpRecord@68e5eea7]" started-at="2019-07-13T16:48:26Z" name="ValidateStatusCode" finished-at="2019-07-13T16:48:26Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusCode -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.employee.testcases.TC005_VerifyDeleteEmpRecord@68e5eea7]" started-at="2019-07-13T16:48:26Z" name="TearDown" finished-at="2019-07-13T16:48:26Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.employee.testcases.TC005_VerifyDeleteEmpRecord -->
+    </test> <!-- EmployeesRestAPITest -->
+  </suite> <!-- EmployeesRestAPISuite -->
+</testng-results>
